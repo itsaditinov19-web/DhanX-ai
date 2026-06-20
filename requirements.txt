@@ -3,3 +3,6 @@ requests
 python-dotenv
 google-generativeai
 Pillow
+sentence-transformers
+torch
+faiss-cpu
