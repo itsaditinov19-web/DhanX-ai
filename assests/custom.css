@@ -1,0 +1,113 @@
+/* =====================================================
+   MAIN APP
+===================================================== */
+
+.stApp {
+    background-color: #0e1117;
+    color: white;
+}
+
+
+/* =====================================================
+   SIDEBAR
+===================================================== */
+
+section[data-testid="stSidebar"] {
+    background-color: #111827;
+    border-right: 1px solid #1f2937;
+}
+
+
+/* =====================================================
+   DHANX LOGO
+===================================================== */
+
+.dhanx-logo {
+    font-size: 38px;
+    font-weight: 800;
+    margin-bottom: 20px;
+    padding-top: 10px;
+}
+
+.dhan-blue {
+    color: #3b82f6;
+}
+
+.dhan-red {
+    color: #ef4444;
+    font-style: italic;
+}
+
+
+/* =====================================================
+   SECTION HEADERS
+===================================================== */
+
+.section-title {
+    font-size: 22px;
+    font-weight: 700;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+
+/* =====================================================
+   METRIC CARDS
+===================================================== */
+
+[data-testid="metric-container"] {
+
+    background-color: #1a1f2e;
+
+    border: 1px solid #2a3441;
+
+    padding: 15px;
+
+    border-radius: 12px;
+
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.3);
+}
+
+
+/* =====================================================
+   BUTTONS
+===================================================== */
+
+.stButton button {
+
+    width: 100%;
+
+    border-radius: 10px;
+
+    background-color: #2563eb;
+
+    color: white;
+
+    border: none;
+
+    font-weight: 600;
+}
+
+
+/* =====================================================
+   TABLES
+===================================================== */
+
+[data-testid="stDataFrame"] {
+
+    border-radius: 10px;
+
+    overflow: hidden;
+}
+
+
+/* =====================================================
+   CHART CONTAINER
+===================================================== */
+
+.js-plotly-plot {
+
+    border-radius: 12px;
+
+    overflow: hidden;
+}
