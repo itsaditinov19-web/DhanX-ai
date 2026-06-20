@@ -8,3 +8,8 @@ faiss-cpu
 numpy
 torch
 openai
+ccxt
+pandas
+ta
+yfinance
+PyMuPDF
